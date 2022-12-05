@@ -9,7 +9,7 @@
 ## SQL - Tabellen Befehle
 * <a name="l1">Alle Felder einer Tabelle anzeigen lassen</a><br />
 ```yaml
-;
+CMD;
 ```
 
 
