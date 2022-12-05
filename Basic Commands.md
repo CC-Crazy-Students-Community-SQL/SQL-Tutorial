@@ -11,7 +11,7 @@
   <a href="#l5">* Datenbank / Tabelle auswählen</a><br />
 
 ## SQL - Standart Befehle
-* <a name="#l1">MySQL Datenbanken anzeigen lassen</a><br />
+* <a name="l1">MySQL Datenbanken anzeigen lassen</a><br />
 ```yaml
 SHOW DATABASES;
 ```
