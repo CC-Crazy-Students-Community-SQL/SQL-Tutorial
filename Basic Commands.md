@@ -1,35 +1,25 @@
 # SQL
 
 ## SQL - Standart Befehle
+Diese Befehle gehen in der CLI, also starten wir diese mit `` mysql-ctl cli; ``
+In diesem Tutorial wird "name" als Platzhalter für den Name einer Datenban, Tabelle, Feld ... verwendet.
+Dieser muss natürlich dann umbenannt werden
 
-* MySQL DB-Start
-  * Startet den SQL Server
+* MySQL Datenbanken anzeigen lassen
 
 ```yaml
-mysql-ctl start;
+SHOW DATABASES;
 ```
-  * Startet den SQL Server
+* MySQL Tabellen anzeigen lassen
+  * Dieser Befehl geht nut mit einer ausgewählten Datenbank
 
 ```yaml
-sudo service mysql start;
+SHOW TABLES;
 ```
-* MySQL DB-Stop
-    * Stopt den SQL Server
+* MySQL Datenbanken oder Tabellen zur Verwendung auswählen
 
 ```yaml
-mysql-ctl stop;
-```
-* MySQL DB-CLI start
-    * Startet das Command Line Interface auf dem SQL Server
-
-```yaml
-sql mysql-ctl cli;
-```
-* MySQL DB-CLI exit
-    * Beendet das Command Line Interface auf dem SQL Server
-
-```yaml
-exit;
+USE name;
 ```
 
 ###### sandrosimperl.cc@gmail.com
