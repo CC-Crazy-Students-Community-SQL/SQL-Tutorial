@@ -18,11 +18,16 @@
 ## Sprachelemente
 * SQL-Befehle lassen sich in fünf Kategorien unterteilen (Zuordnung nach der Theorie der Datenbanksprachen in Klammern):
 
-    * Data Query Language &emsp;&emsp;&emsp;&emsp;&ensp;(DQL)&emsp;  – Befehle zur Abfrage und Aufbereitung der gesuchten Informationen, wird auch als Untermenge der DML klassifiziert
-    * Data Manipulation Language &emsp;&ensp;(DML)&emsp;– Befehle zur Datenmanipulation (Ändern, Einfügen, Löschen von Datensätzen) und lesendem Zugriff
-    * Data Definition Language &emsp;&emsp;&emsp;(DDL)&emsp; – Befehle zur Definition des Datenbankschemas (Erzeugen, Ändern, Löschen, Schlüssel)
-    * Data Control Language &emsp;&emsp;&emsp;&emsp;(DCL)&emsp; – Befehle für die Rechteverwaltung
-    * Transaction Control Language &emsp;(TCL)&emsp;&ensp;– Befehle für die Transaktionskontrolle
+    * Data Query Language&emsp;(DQL)
+        * Befehle zur Abfrage und Aufbereitung der gesuchten Informationen, wird auch als Untermenge der DML klassifiziert
+    * Data Manipulation Language&emsp;(DML)
+        * Befehle zur Datenmanipulation (Ändern, Einfügen, Löschen von Datensätzen) und lesendem Zugriff
+    * Data Definition Language&emsp;(DDL)
+        * Befehle zur Definition des Datenbankschemas (Erzeugen, Ändern, Löschen, Schlüssel)
+    * Data Control Language&emsp;(DCL)
+        * Befehle für die Rechteverwaltung
+    * Transaction Control Language&emsp;(TCL)
+        * Befehle für die Transaktionskontrolle
 
 * Die Bezeichnung SQL bezieht sich auf das englische Wort „query” (Abfrage). Mit Abfragen werden die in einer Datenbank gespeicherten Daten abgerufen, also dem Benutzer oder einer Anwendersoftware zur Verfügung gestellt.
 * Das Ergebnis einer Abfrage sieht wiederum aus wie eine Tabelle und kann oft auch wie eine Tabelle angezeigt, bearbeitet und weiterverwendet werden.
