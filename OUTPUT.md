@@ -5,13 +5,13 @@
 * &emsp;Hier seht Ihr den Output, der durch das CLI angezeigt wird, sofern der Befehlt keinen Fehler ausgibt.<br />
 
 ## SQL - Inhaltsverzeichnis
-* <a href="#l1">Datenbank anlegen</a><br />
-* <a href="#l2">Datenbanken anzeigen</a><br />
-* <a href="#l3">Datenbank auswählen</a><br />
-
-* <a href="#l4">Tabelle anlegen</a><br />
-* <a href="#l5">Tabelle befüllen</a><br />
-* <a href="#l6">Tabelle anzeigen</a><br />
+* <a href="#l1">Datenbank anlegen</a>
+* <a href="#l2">Datenbanken anzeigen</a>
+* <a href="#l3">Datenbank auswählen</a>
+<br />
+* <a href="#l4">Tabelle anlegen</a>
+* <a href="#l5">Tabelle befüllen</a>
+* <a href="#l6">Tabelle anzeigen</a>
 
 ## SQL - Standart Ausgabe
   * <a name="l1">Datenbanken erstellen</a><br />
