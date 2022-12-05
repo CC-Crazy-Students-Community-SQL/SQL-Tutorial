@@ -1,9 +1,9 @@
 # SQL
 
 ## SQL - Standart Befehle
-Diese Befehle gehen in der CLI, also starten wir diese mit `` mysql-ctl cli; ``
-In diesem Tutorial wird "name" als Platzhalter für den Name einer Datenban, Tabelle, Feld ... verwendet.
-Dieser muss natürlich dann umbenannt werden
+* Diese Befehle gehen in der CLI, also starten wir diese mit `` mysql-ctl cli; ``
+* In diesem Tutorial wird "name" als Platzhalter für den Name einer Datenban, Tabelle, Feld ... verwendet.
+* Dieser muss natürlich dann umbenannt werden
 
 * MySQL Datenbanken anzeigen lassen
 
