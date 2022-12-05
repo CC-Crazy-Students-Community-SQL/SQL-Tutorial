@@ -3,25 +3,33 @@
 ## SQL - Standart Befehle
 
 * MySQL DB-Start
-   * Startet den SQL Server
+  * Startet den SQL Server
 
-```sql mysql-ctl start; ```
+```yaml
+mysql-ctl start;
+```
+  * Startet den SQL Server
 
-   * Startet den SQL Server
-
-```sh sudo service mysql start; ```
-
+```yaml
+sudo service mysql start;
+```
 * MySQL DB-Stop
     * Stopt den SQL Server
-```sql mysql-ctl stop; ```
 
+```yaml
+mysql-ctl stop;
+```
 * MySQL DB-CLI start
     * Startet das Command Line Interface auf dem SQL Server
-```sql mysql-ctl cli; ```
+
+```yaml
+sql mysql-ctl cli;
+```
 * MySQL DB-CLI exit
     * Beendet das Command Line Interface auf dem SQL Server
-```sql exit; ```
 
-## Konsolen Ausgabe generieren
-    Einfache Ausgabe in Konsole
+```yaml
+exit;
+```
+
 ###### sandrosimperl.cc@gmail.com
