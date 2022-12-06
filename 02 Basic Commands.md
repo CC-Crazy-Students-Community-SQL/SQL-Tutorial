@@ -7,7 +7,9 @@
 * <a href="#l1">MySQL Datenbanken anzeigen lassen</a><br />
 * <a href="#l2">Tabellen anzeigen lassen</a></a></a><br />
 * <a href="#l3">Datenbank anlegen</a></a><br />
+* <a href="#l7">Datenbank löschen</a></a><br />
 * <a href="#l4">Tabellen anlegen</a><br />
+* <a href="#l8">Tabellen anlegen</a><br />
 * <a href="#l5">Datenbank / Tabelle auswählen</a><br />
 * <a href="#l6">.sql Dateien aufrufen im CLI</a><br />
 
@@ -25,10 +27,19 @@ SHOW TABLES;
 ```yaml
 CREATE DATABASE name;
 ```
+* <a name="l7">Datenbank löschen</a><br />
+```yaml
+DROP DATABASE name;
+```
 * <a name="l4">Table anlegen</a>
   * Dieser Befehl geht nur mit einer ausgewählten Datenbank<br />
 ```yaml
 CREATE TABLE name;
+```
+* <a name="l8">Table löschen</a>
+  * Dieser Befehl geht nur mit einer ausgewählten Datenbank<br />
+```yaml
+DROP TABLE name;
 ```
 * <a name="l5">Datenbank oder Tabelle zur Verwendung auswählen</a><br />
 ```yaml
