@@ -9,6 +9,7 @@
 * <a href="#l3">Datenbank anlegen</a></a><br />
 * <a href="#l4">Tabellen anlegen</a><br />
 * <a href="#l5">Datenbank / Tabelle auswählen</a><br />
+* <a href="#l6">.sql Dateien aufrufen im CLI</a><br />
 
 ## SQL - Standart Befehle
 * <a name="l1">Datenbanken anzeigen lassen</a><br />
@@ -33,6 +34,9 @@ CREATE TABLE name;
 ```yaml
 USE name;
 ```
-
+* <a name="l5">.sql Dateien aufrufen im CLI</a><br />
+```yaml
+SOURCE path/file.sql;
+```
 
 ###### sandrosimperl.cc@gmail.com
