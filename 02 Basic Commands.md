@@ -9,9 +9,10 @@
 * <a href="#l3">Datenbank anlegen</a></a><br />
 * <a href="#l7">Datenbank löschen</a></a><br />
 * <a href="#l4">Tabellen anlegen</a><br />
-* <a href="#l8">Tabellen anlegen</a><br />
+* <a href="#l8">Tabellen löschen</a><br />
 * <a href="#l5">Datenbank / Tabelle auswählen</a><br />
 * <a href="#l6">.sql Dateien aufrufen im CLI</a><br />
+* <a href="#l9">Objekte nach Existez abfragen</a><br />
 
 ## SQL - Standart Befehle
 * <a name="l1">Datenbanken anzeigen lassen</a><br />
@@ -48,6 +49,13 @@ USE name;
 * <a name="l5">.sql Dateien aufrufen im CLI</a><br />
 ```yaml
 SOURCE path/file.sql;
+```
+* <a name="l9">Objekte nach Existez abfragen</a><br />
+```yaml
+DROP TABLE IF EXISTS name;
+```
+```yaml
+CREATE DATABASE IF NOT EXISTS name;
 ```
 
 ###### sandrosimperl.cc@gmail.com
