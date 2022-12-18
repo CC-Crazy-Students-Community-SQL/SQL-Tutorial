@@ -34,7 +34,7 @@ DROP DATABASE name;
 ```
 * <a name="l4">Table anlegen</a>
   * Dieser Befehl geht nur mit einer ausgewählten Datenbank<br />
-  * Dieser Befehl geht nicht ohen Felder, kommt aber noch später<br />
+  * Dieser Befehl geht nicht ohne Felder, kommt aber noch später<br />
 ```yaml
 CREATE TABLE name;
 ```
